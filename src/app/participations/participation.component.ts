@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector:"participation-component",
+    selector:"app-participation",
     templateUrl: './participation.component.html'
 })
 export class ParticipationComponent{

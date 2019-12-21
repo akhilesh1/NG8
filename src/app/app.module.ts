@@ -6,11 +6,13 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ParticipationComponent } from './participations/participation.component';
+import { AwardComponent } from './award/award.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ParticipationComponent
+    ParticipationComponent,
+    AwardComponent
   ],
   imports: [
     BrowserModule,
